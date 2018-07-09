@@ -1,0 +1,55 @@
+<!DOCTYPE html >
+<html >
+<head>
+<title>Kayıt Güncelleme</title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<!-- 
+		Rehberdeki üyeleri güncellemek için için güncelleme paneli oluşturuldu.  CSS ile görselleştirilmiştir.
+		Düzgün görünmesi için veriler <table> içine yazılmıştır.
+		Html Form tag'ı kullanılarak text'lerdeki değerlere "kaydet.php" dosyasından erişebilmek için  text-name değerleri yazıldı.
+-->
+<body>
+<form action="guncellendi.php" method="post" name="uyelik">
+<table border=2 bordercolor='DarkSeaGreen ' cellpadding='5' >
+
+  <tr>
+    <td  >Ad-Soyad :</td>
+    <td><label>
+      <input type="text" name="ad"/>
+    </label></td>
+    </tr>
+	
+  <tr>
+    <td>Mobil No :</td>
+    <td><label>
+      <input type="text" name="mobilNo" />
+    </label></td>
+    </tr>
+	
+  <tr>
+    <td>Sabit No :</td>
+    <td><label>
+      <input type="text" name="evNo" />
+    </label></td>
+    </tr>
+	
+  <tr>
+    <td>E-Posta :</td>
+    <td><label>
+      <input type="email" name="eposta" />
+    </label></td>
+  </tr>
+
+    <td>&nbsp;</td>
+    <td><label>
+      <input type="submit" value="Güncelle" name="git" id="guncel" />
+    </label></td>
+  </tr>
+  </table>
+
+
+</form>
+</body>
+</html>

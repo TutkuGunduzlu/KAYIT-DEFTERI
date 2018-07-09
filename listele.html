@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>KAYIT DEFTERİ</title>
+<!-- İlgili CSS dosyası eklendi.  -->
+<link rel="stylesheet" type="text/css" href="style2.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta charset="utf-8">
+
+<!-- Veritabanındaki kayıtlı kişilerin tüm bilgileri ajax ile çekilip div  içine yazdırılma işlemi gerçekleştirildi. -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script >
+$(document).ready(function(){
+	$.ajax({
+		type:"POST",
+		url : "ajax2.php",
+		success:function(sonuc){
+			// alert(sonuc);
+			$("#liste").html(sonuc);
+		}
+	});
+});
+</script>
+</head>
+
+<body >
+
+<div class="header" >
+
+<!--  Ana başlık-->
+<h1  ><a href="  http://localhost/Rehber/index.html   " >KAYIT DEFTERİ</a></h1>
+<form action="guncellesilekrani.php" method="post" name="form1"  >
+
+<!-- <form> içinde butonlar ve text alanları oluşturuldu. 
+		İlgili butona tıklandığında ne olacağı onClick olayında belirtildi.
+		Submit butonuna tıklandığında ise  text'teki değer guncellesilekrani.php ye gönderildi.
+ -->
+<p class="buton">
+									<button id="kayit" type="button" onclick = " window.location.href = ' http://localhost/Rehber/kayitekrani.html ' " > Yeni Kişi Ekle</button> 
+									<input type="text" name="ara" class="txt"  placeholder="İsim/Soyisim" >
+									<input type="submit" id="ara" class="btn" name="gonder" value="Ara">
+									
+ </p>  
+
+</form>
+
+</div>
+
+<div class="liste" id="liste" >
+
+
+</div>
+</body>
+</html>

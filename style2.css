@@ -1,0 +1,142 @@
+
+.header {
+     width:100%;
+	max-width:1024px;
+	height:auto;
+	min-height:50px;
+	margin:auto;
+	margin-top:20px;
+}
+/* Rehberde isimlerin görüntülendiği div in CSS özellikleri */
+.icerik {
+	color:#ad0000;
+	font-size : 20px ;
+	text-align: center;
+     width:400px;
+     height: auto;
+	  margin:  auto;
+	  margin-top:80px;
+	  border-padding:150px;
+      border-left-style:double;
+      border-right-style:double;
+	  	font-weight:bold; 
+	  border-color : #ad0000;
+	
+}
+
+.liste {
+	color:#ad0000;
+	font-size : 20px ;
+	text-align: center;
+     width:800px;
+     height:auto;
+	  margin: auto;
+	  margin-top:40px;
+      border-left-style:double;
+      border-right-style:double;
+	  	font-weight:bold; 
+	  border-color : #ad0000;
+}
+/* Anasayfadaki butonların özellikleri */
+.buton{
+	 width: auto;
+     height: auto;
+	 margin-top:10px;
+}
+	 
+h1{
+	text-align: center;
+	font-family: verdana;
+    font-size: 200%;
+	 width: auto;
+     height: auto;
+	 color:#ad0000;
+}
+/* Anasayfadaki arama butonunun özellikleri */
+#ara{
+	border:2px solid #666;
+	color:#fff; 
+	background:#ad0000;   
+	font-weight:bold; 
+	height: 30px;
+	width: 60px;
+	font-size:15px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	 
+	}
+/* Anasayfadaki yeni kayıt ekle butonunun özellikleri */
+#kayit {
+	border:2px solid #666;                 
+	background:#ad0000;    
+	color:#fff;                     
+	font-weight:bold;  
+    font-size:15px; 	
+	 width: 140px;
+	  height: 30px;
+	  margin-left:300px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	 
+	
+}
+/* Anasayfadaki listele butonunun özellikleri */
+#listele{
+	border:2px solid #666;                 
+	background:#ad0000;    
+	color:#fff;                     
+	font-weight:bold;  
+    font-size:15px; 	
+	 width: 140px;
+	  height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position:relative;
+	top:40px;
+	right:435px;
+	bottom:20px;
+}
+/* Anasayfadaki text'in  özellikleri */
+.txt{
+	border:2px solid #777;
+	color:#888; 
+	font-weight:solid; 
+	font-size:18px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	 width: 170px;
+	  height: 20px;
+	margin-left: 50px;
+	
+}
+
+body {
+	 background: url(logom4.png) no-repeat center center fixed;  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+}
+
+/* Kayıt ekleme ve güncelleme panellerindeki butonların CSS özellikleri */
+
+#git , #guncel{
+	border:2px solid #666;                          
+	font-weight:bold;  
+    font-size:15px; 	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+a{color:#ad0000;}
+a:link{color:#ad0000;}
+a:visited{color:#ad0000;}
+a:hover{color:#b45959;}
+a:active{color:#ad0000;}
+a:link{text-decoration:none;}
+
